@@ -1,30 +1,46 @@
 <template>
   <van-nav-bar
-    :title="state.info.mName"
+    :title="props.obj.mName"
     fixed
     placeholder
     :border="false"
     left-arrow
     @click-left="onClickLeft"
   />
-  <div class="container"> 
+  <div class="container">
     <div class="top">
       <div class="img">
-        <van-image width="110" height="140" 
-        :src="state.info.mImg" />
+        <van-image width="110" height="140" :src="props.obj.mImg" />
       </div>
       <div class="info">
-        <div class="title">{{state.info.mName}}({{state.info.mYear}})</div>
+        <div class="title">{{ props.obj.mName }}({{ props.obj.mYear }})</div>
         <div class="label">
           <div>No.5</div>
           <div>一周口碑电影榜</div>
         </div>
         <div class="des">
-          {{state.info.mAddr}}&nbsp;/&nbsp;{{state.info.mClass}}&nbsp;/&nbsp;片长 {{state.info.mLong}}
+          {{ props.obj.mAddr }}&nbsp;/&nbsp;{{
+            props.obj.mClass
+          }}&nbsp;/&nbsp;片长 {{ props.obj.mLong }}
         </div>
         <div class="btn">
-          <van-button icon="like-o" type="primary">想看</van-button
-          ><van-button icon="star-o" type="primary">看过</van-button>
+          <van-button
+            type="primary"
+            @click="state.isWannaSee = !state.isWannaSee"
+          >
+            <span
+              class="iconfont icon-aixin"
+              :class="state.isWannaSee ? 'active' : ''"
+            ></span>
+            想看</van-button
+          >
+          <van-button @click="state.isYes = !state.isYes" type="primary">
+            <span
+              class="iconfont icon-shoucang"
+              :class="state.isYes ? 'active' : ''"
+            ></span
+            >看过
+          </van-button>
         </div>
       </div>
     </div>
@@ -32,55 +48,47 @@
     <div class="introduction">
       <div class="title">简介</div>
       <div class="main" :class="{ closed: status }">
-        {{state.info.mInfo}}
+        {{ props.obj.mInfo }}
       </div>
-      <div class="open" @click="opends">{{ status === true ? '展开' : '收起' }}</div>
+      <div class="open" @click="opends">
+        {{ status === true ? "展开" : "收起" }}
+      </div>
     </div>
     <!-- 影人 -->
     <div class="shadowman">
       <div class="title">影人</div>
       <ul>
-        <li v-for="item in state.shadowManList" :key="item.id">
+        <li v-for="item in props.obj.shadowManList" :key="item.id">
           <div class="img">
-            <van-image width="90" height="120" 
-            :src="item.mmImg" />
+            <img width="90" height="120" :src="item.mmImg" alt="" />
           </div>
-          <div class="name">{{item.mmName}}</div>
-          <div class="position">{{item.mmRole}}</div>
+          <div class="name">{{ item.mmName }}</div>
+          <div class="position">{{ item.mmRole }}</div>
         </li>
       </ul>
     </div>
   </div>
 </template>
 <script setup>
-import { ref, reactive, onMounted } from 'vue'
-import {searchInfo,getMoveManList} from "@/api/filminfo"
-import {useRoute} from "vue-router"
-const route = useRoute()
-const status = ref(true)
-const opends = () => {
-  status.value = !status.value
-}
+import { ref, reactive, onMounted } from "vue";
+import { searchInfo, getMoveManList } from "@/api/filminfo";
+import { useRoute } from "vue-router";
+const props = defineProps({
+  obj: Object,
+});
+const emit = defineEmits(["back"]);
+const route = useRoute();
+const status = ref(true);
 const state = reactive({
-  info:{},
-  shadowManList:[]
-})
-onMounted(async ()=>{
-  const {data} = await searchInfo(route.query.mId)
-  state.info = data //只有一条记录
-  state.info.mImg = "http://localhost:9999/"+state.info.mImg
-  // console.log(state.info)
-  //获取影人数据 
-  const moveManList = await getMoveManList(route.query.mId)
-  state.shadowManList = moveManList.data
-  state.shadowManList.forEach(item=>{
-    item.mmImg = "http://localhost:9999/"+item.mmImg
-  })
-  console.log(1,state.shadowManList)
-})
-const onClickLeft = ()=>{
-  history.back()
-}
+  isWannaSee: false,
+  isYes: false,
+});
+const opends = () => {
+  status.value = !status.value;
+};
+const onClickLeft = () => {
+  emit("back");
+};
 </script>
 
 <style lang="scss" scoped>
@@ -98,12 +106,12 @@ const onClickLeft = ()=>{
 }
 .container {
   background-color: #f9f5f4;
-  height:100%;
-  padding-bottom: 2.667vw;
+  height: 100%;
+  padding-bottom: 4.667vw;
   .top {
     display: flex;
     padding: 0 4.267vw;
-    margin-bottom:6vw;
+    margin-bottom: 6vw;
     .img {
       height: 37.333vw;
       ::v-deep .van-image__img {
@@ -157,7 +165,7 @@ const onClickLeft = ()=>{
         & > :nth-child(1) {
           margin: 0;
         }
-        ::v-deep .van-badge__wrapper {
+        .active {
           color: #ffac2d;
         }
       }

@@ -153,6 +153,42 @@ const state = reactive({
       id: "34963356",
       cover_y: 1440,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
 
     {
@@ -166,6 +202,42 @@ const state = reactive({
       id: "35901878",
       cover_y: 2835,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
 
     {
@@ -179,6 +251,42 @@ const state = reactive({
       id: "35209746",
       cover_y: 1600,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
 
     {
@@ -192,6 +300,42 @@ const state = reactive({
       id: "36244313",
       cover_y: 4096,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
 
     {
@@ -205,6 +349,42 @@ const state = reactive({
       id: "3011317",
       cover_y: 2964,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
 
     {
@@ -218,6 +398,42 @@ const state = reactive({
       id: "35221425",
       cover_y: 3508,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
 
     {
@@ -231,6 +447,42 @@ const state = reactive({
       id: "34982427",
       cover_y: 1060,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
     {
       rate: 5,
@@ -243,6 +495,42 @@ const state = reactive({
       id: "36507957",
       cover_y: 4500,
       is_new: true,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
 
     {
@@ -256,6 +544,42 @@ const state = reactive({
       id: "35056376",
       cover_y: 2222,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
 
     {
@@ -269,6 +593,42 @@ const state = reactive({
       id: "35371261",
       cover_y: 12402,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
     {
       rate: 5,
@@ -281,6 +641,42 @@ const state = reactive({
       id: "34955229",
       cover_y: 3489,
       is_new: false,
+      item: {
+        mName: "卧室 La Maison",
+        mYear: "2022",
+        mInfo:
+          "The story of La Maison revolves around 27-year-old Emma, a French woman who heads off to live in Berlin and decides to spend some time in a brothel so as to learn about and understand sex workers – women who are paid to be women and that alone, and who are set to form the focus of her new novel. In gonzo journalism style, Emma becomes one of them and ultimately remains with them for two years, despite only intending to stay for several weeks. Was writing her book simply a pretext for Emma to live out the type of fantasy that’s hard to admit to in our society? From one bedchamber to another and from one woman to the next, the film guides us through a “forbidden” world.",
+        mAddr: "法国",
+        mClass: "剧情",
+        mLong: "89分钟",
+        mImg: "https://img2.doubanio.com\/view\/photo\/s_ratio_poster\/public\/p2890156881.jpg",
+        shadowManList: [
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/ehEkPbBg4m4Nhz-A-NVthgS4cshobQTX",
+            mmName: "安妮莎·博纳丰",
+            mmRole: "导演",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/t2oCkUPKdkwcgLsOW9U3FEOdX3Wxmps-",
+            mmName: "安娜·吉拉多特",
+            mmRole: "饰 Emma",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/LQauH6_9OV-v5Ck2Vh_9GU_y2Rv3d-jM",
+            mmName: "奥雷·阿蒂卡",
+            mmRole: "饰 Delilah",
+          },
+          {
+            mmImg:
+              "https://public-75012.picgzc.qpic.cn/-Ja85uxXe7t2Uz9ogp08qWqBhKhj32ej",
+            mmName: "萝西·德·帕尔马",
+            mmRole: "饰 Brigida",
+          },
+        ],
+      },
     },
   ],
   obj: {},
